@@ -1,4 +1,4 @@
-@echo on && setlocal ENABLEEXTENSIONS && pushd "%~dp0" && call "..\scripts\base.bat" || exit /b 1
+@echo off && setlocal ENABLEEXTENSIONS && pushd "%~dp0" && call "..\scripts\base.bat" || exit /b 1
 
 set "ROOT=%~dp0"
 for %%a in ("%ROOT%\.") do set "ROOT=%%~fa"

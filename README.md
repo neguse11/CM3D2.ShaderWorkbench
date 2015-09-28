@@ -11,12 +11,18 @@ HLSLでシェーダを書き換えて遊べます
  - ReiPatcher, UnityInjector が動作している
  - .NET Framework 3.5 がインストールされている
  - Direct3D 11 モード（通常の動作モードです）でゲーム本体が動作している
+ - 以下では「C:\KISS\CM3D2_KAIZOU」に改造版があるとして説明をします
+
+
+## ダウンロードと設置
+
+ - https://github.com/neguse11/CM3D2.ShaderWorkbench/archive/master.zip をダウンロード
+ - master.zip を展開し、C:\KISS\CM3D2_KAIZOU\CM3D2.ShaderWorkbench-master\config.bat.txtが存在するようにコピーする
 
 
 ## 準備
 
  - config.bat.txt を config.bat にリネームし、config.bat内の「`CM3D2_VANILLA_DIR`」および「`CM3D2_MOD_DIR`」を適宜設定してください
- - setup.bat を実行し、初回セットアップ (ただのダウンロードとファイルコピーです) を実行してください
  - compile-patch-and-go.bat を実行することで、ダウンロード、コンパイル、パッチ適用が行われ、その後 CM3D2x64.exe と ShaderCompiler.exe が実行されます
 
 
@@ -41,7 +47,7 @@ HLSLでシェーダを書き換えて遊べます
     - うまく更新されない場合は F12 を押すことで強制的にリロードも可能です
 
 
-## 外したい
+## 消したい
 
 clean.bat を実行してください
 
