@@ -1,0 +1,12 @@
+.vs/
+bin/
+obj/
+.*/
+
+*.user
+*.exe
+*.zip
+
+lib/*/
+*.rsp
+config.bat
